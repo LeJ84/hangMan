@@ -65,7 +65,7 @@ app = {
         displayHangman: () => {
             const hangmanPicture = document.querySelector(".hangManPictures");
 
-            hangmanPicture.style.backgroundImage = `url(/images/pendu${app.hangingStep}.png)`;
+            hangmanPicture.style.backgroundImage = `url(./images/pendu${app.hangingStep}.png)`;
             hangmanPicture.style.visibility = "visible";
             console.log("img :", hangmanPicture);
 
